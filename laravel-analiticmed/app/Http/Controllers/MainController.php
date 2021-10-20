@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ServiciiGen;
 use App\Models\ServiciiImun;
 use App\Models\Servicii;
 use App\Models\FeedbackModel;
@@ -16,7 +17,9 @@ class MainController extends Controller {
     public function servicii() {
         $serviciis = new Servicii();
         $servicii_imuns = new ServiciiImun();
-        return view('servicii', ['serviciis' => $serviciis->all()],['servicii_imuns' => $servicii_imuns->all()]);
+        $servicii_gens = new ServiciiGen();
+        //dd($servicii_gens->all());
+        return view('servicii', ['serviciis' => $serviciis->all(), 'servicii_imuns' => $servicii_imuns->all(), 'servicii_gens' => $servicii_gens->all()]);
         
     }
 
@@ -50,7 +53,7 @@ class MainController extends Controller {
        return redirect('/');
     }
 
-//servicii tabs
+
 
 
 

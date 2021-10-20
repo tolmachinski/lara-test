@@ -7,7 +7,7 @@
 
 <div style="background: linear-gradient(to bottom, #FFFFFF 20%, #e0f1ff 50%, #FDFDFD 80%);">
 
-<div id="myCarousel" class="carousel slide shadow"  data-bs-ride="carousel">
+<div id="myCarousel" class="carousel slide "  data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
@@ -15,7 +15,7 @@
     </div>
     <div class="carousel-inner" >
       <div class="carousel-item" >
-      <img class="bd-placeholder-img" src="{{asset('images/carousel1.jpg')}}" width="100%" height="auto" style="min-height: 250px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/head_banner1.jpg')}}" width="100%" height="auto" style="min-height: 250px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container" >
             
@@ -71,14 +71,14 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4 mt-5">
-        <img class="bd-placeholder-img rounded" src="https://dlslab.com/wp-content/uploads/2020/12/covid-19-testing-centers-848x477.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+        <img class="bd-placeholder-img rounded" src="{{asset('images/lab1.jpg')}}" width="400" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
-        <h2>Более 12134 видов анализов</h2>
+        <h2>Более 150 видов анализов</h2>
         <p>Наша лаборатория делает любые ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae voluptate saepe perferendis? Delectus exercitationem dolorem tenetur, ut, et qui quae, mollitia quo atque facilis unde nihil voluptas. Eligendi, tempora... анализы.</p>
         <p><a class="btn btn-secondary" href="#">View details »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4 mt-5">
-        <svg class="bd-placeholder-img rounded" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img class="bd-placeholder-img rounded" src="{{asset('images/lab2.jpg')}}" width="400" height="140"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Более 15лет опыта</h2>
         <p>Наша лаборатория существует уже более 15 лет,а это означает,что мы можем предложить вам огромный опыт... Lorem ipsum dolor sit amet consectetur adipisicing elit. Et officia id vitae odit voluptatum, animi illum molestias ipsa. Alias sint vitae possimus provident veritatis, esse illo nihil earum nobis delectus!</p>
@@ -86,7 +86,7 @@
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4 mt-5">
-        <svg class="bd-placeholder-img rounded" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img class="bd-placeholder-img rounded" src="{{asset('images/lab2.jpg')}}" width="400" height="140"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
         <h2>Лучший мед. персонал</h2>
         <p>В Analitic Med мы собираем только самых лучших специалистов и все они клалифицированные и сертифицированные мед работники с длительным стажем работы ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dicta odio provident, aspernatur cupiditate corrupti nam ex dolore? Delectus obcaecati ut quia consectetur similique esse perspiciatis eaque distinctio totam enim!</p>
@@ -110,7 +110,7 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
         <p><a class="btn btn-lg btn-primary mt-2" href="https://play.google.com/store/apps/details?id=com.nocovid19.su&hl=ro&gl=US">Descarcă</a></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="{{asset('images/covid.jpg')}}" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>

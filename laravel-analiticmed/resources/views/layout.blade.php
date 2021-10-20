@@ -87,15 +87,15 @@ position:absolute;
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4">Analitic Med</span>
+        <span class="fs-4">Analitic-Med</span>
       </a>
 
       <ul class="nav nav-pills ">
-        <li class="nav-item"><a href="/" class="nav-link text-dark text-decoration-none" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="/" class="nav-link text-dark text-decoration-none" aria-current="page">Principală</a></li>
         <li class="nav-item"><a href="servicii" class="nav-link text-dark text-decoration-none">Servicii</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none">Contacte</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none"></a></li>
-        <li class="nav-item"><a href="feedback" class="btn btn-outline-primary">Оставить Отзыв</a></li>
+        <li class="nav-item"><a href="feedback" class="btn btn-outline-primary">Contactează cu noi</a></li>
       </ul>
     </header>
   </div>
@@ -118,7 +118,7 @@ position:absolute;
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Principală</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacte</a></li>
     </ul>
   </footer>
