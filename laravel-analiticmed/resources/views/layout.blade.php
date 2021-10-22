@@ -25,6 +25,10 @@
 
 
     <style>
+      body {
+            font-size: 1.25rem;
+            font-weight: 300;
+            }
       
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -71,6 +75,10 @@ width:100%;
 position:absolute;
 }
 
+.btn {
+  font-size: 1.25rem;
+            font-weight: 350;
+}
 
 
 
@@ -87,15 +95,15 @@ position:absolute;
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4">Analitic-Med</span>
+        <span class="fs-4 lead">Analitic-Med</span>
       </a>
 
       <ul class="nav nav-pills ">
-        <li class="nav-item"><a href="/" class="nav-link text-dark text-decoration-none" aria-current="page">Principală</a></li>
-        <li class="nav-item"><a href="servicii" class="nav-link text-dark text-decoration-none">Servicii</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none">Contacte</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none"></a></li>
-        <li class="nav-item"><a href="feedback" class="btn btn-outline-primary">Contactează cu noi</a></li>
+        <li class="nav-item"><a href="/" class="nav-link text-dark text-decoration-none lead" aria-current="page">Principală</a></li>
+        <li class="nav-item"><a href="servicii" class="nav-link text-dark text-decoration-none lead">Servicii</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none lead">Contacte</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none lead"></a></li>
+        <p class="lead"><a href="feedback" class="btn btn-primary">Contactează cu noi</a></p>
       </ul>
     </header>
   </div>

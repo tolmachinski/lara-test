@@ -4,7 +4,7 @@
 
 @section('main_content')
 
-<div class="container">
+<div class="container mt-5" style="max-width: 1000px;">
 <h2>Все отзывы</h2>
 
     @foreach($reviews as $el)
@@ -24,3 +24,4 @@
 
 
 @endsection
+

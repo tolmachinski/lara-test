@@ -44,7 +44,7 @@
 
 </div>
 <br>
-
+<br>
 <div class="container">
     <h2>Investigații  Imunologice</h2>
     <p class="lead"> PCR  Real-Time </p>
@@ -86,7 +86,7 @@
   </table>
 
 </div>
-
+<br>
 <br>
 
 <div class="container">
@@ -130,8 +130,131 @@
   </table>
 
 </div>
+<br>
+<br>
 
+<div class="container">
+    <h2>Investigații sînge </h2>
+    <p class="lead">  </p>
+    
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Denumirea</th>
+      <th scope="col">Materialul biologic</th>
+      <th scope="col">Costul</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+  @foreach($servicii_bloods as $index => $el) 
+  
+    <tr>
+      <th>{{ $el->id }}</th>
+      <td>{{ $el->name }}</td>
+      <td>{{ $el->material }}</td>
+      <td>{{ $el->cost }}</td>
+    </tr>
 
+    @if($index == 13)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center">Hormoni  şi  Autoanticorpi </h4></td>
+    
+      <tr>
+      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
+      </tr>
+    
+    
+    @endif
+
+    @if($index == 42)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center">Investigații Parazitologice (ELISA)</h4></td>
+    
+      <tr>
+      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
+      </tr>
+    
+    
+    @endif
+
+    @if($index == 49)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center">Markerii Oncologici</h4></td>
+    
+      <tr>
+      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
+      </tr>
+    
+    
+    @endif
+
+    @if($index == 56)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center">Determinarea Grupei Sangvine şi Rezus Factor</h4></td>
+    
+      <tr>
+      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
+      </tr>
+    
+    
+    @endif
+    
+    @endforeach
+    </tbody>
+  </table>
+
+</div>
+<br>
+<br>
+
+<div class="container">
+    <h2>Investigații Clinice şi Biohimice  </h2>
+    <p class="lead">  </p>
+    
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Denumirea</th>
+      <th scope="col">Materialul biologic</th>
+      <th scope="col">Costul</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+  @foreach($servicii_bis as $index => $el) 
+  
+    <tr>
+      <th>{{ $el->id }}</th>
+      <td>{{ $el->name }}</td>
+      <td>{{ $el->material }}</td>
+      <td>{{ $el->cost }}</td>
+    </tr>
+
+    @if($index == 30)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center">Statutul Imun </h4></td>
+    
+      <tr>
+      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
+      </tr>
+    
+    
+    @endif
+    
+    @endforeach
+    </tbody>
+  </table>
+
+</div>
+<br>
 
 
 <div class="container ">

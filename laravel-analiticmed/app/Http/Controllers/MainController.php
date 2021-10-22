@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ServiciiBi;
+use App\Models\ServiciiBlood;
 use App\Models\ServiciiGen;
 use App\Models\ServiciiImun;
 use App\Models\Servicii;
@@ -18,8 +20,10 @@ class MainController extends Controller {
         $serviciis = new Servicii();
         $servicii_imuns = new ServiciiImun();
         $servicii_gens = new ServiciiGen();
+        $servicii_bloods = new ServiciiBlood();
+        $servicii_bis = new ServiciiBi();
         //dd($servicii_gens->all());
-        return view('servicii', ['serviciis' => $serviciis->all(), 'servicii_imuns' => $servicii_imuns->all(), 'servicii_gens' => $servicii_gens->all()]);
+        return view('servicii', ['serviciis' => $serviciis->all(), 'servicii_imuns' => $servicii_imuns->all(), 'servicii_gens' => $servicii_gens->all(), 'servicii_bloods' => $servicii_bloods->all(), 'servicii_bis' => $servicii_bis -> all()]);
         
     }
 
