@@ -4,7 +4,7 @@
    
     <title>@yield('title')</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+    <link rel="shortcut icon"  href="{{asset('images/logo.png')}}">
 
     
 
@@ -15,13 +15,6 @@
 
 
     <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#7952b3">
 
 
     <style>
@@ -81,6 +74,9 @@ position:absolute;
 }
 
 
+/* contacts*/ 
+
+
 
     </style>
 
@@ -94,14 +90,14 @@ position:absolute;
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <img class="bi me-2" src="{{asset('images/logo.png')}}" width="64" height="64"><use xlink:href="#bootstrap"></use></img>
         <span class="fs-4 lead">Analitic-Med</span>
       </a>
 
       <ul class="nav nav-pills ">
         <li class="nav-item"><a href="/" class="nav-link text-dark text-decoration-none lead" aria-current="page">Principală</a></li>
         <li class="nav-item"><a href="servicii" class="nav-link text-dark text-decoration-none lead">Servicii</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none lead">Contacte</a></li>
+        
         <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none lead"></a></li>
         <p class="lead"><a href="feedback" class="btn btn-primary">Contactează cu noi</a></p>
       </ul>
@@ -127,7 +123,7 @@ position:absolute;
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Principală</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacte</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
     </ul>
   </footer>
 </div>
