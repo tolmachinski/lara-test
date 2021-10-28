@@ -15,7 +15,7 @@
     </div>
     <div class="carousel-inner" >
       <div class="carousel-item" >
-      <img class="bd-placeholder-img" src="{{asset('images/head_banner.jpg')}}" width="100%" height="auto" style="min-height: 250px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/head_banner.jpg')}}" width="100%" height="auto" style="min-height: 200px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container" >
             
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="carousel-item active">
-      <img class="bd-placeholder-img" src="{{asset('images/poster1.jpg')}}" width="100%" height="auto" style="min-height: 250px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/poster1.jpg')}}" width="100%" height="auto" style="min-height: 200px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="carousel-item">
-      <img class="bd-placeholder-img" src="{{asset('images/head_banner.jpg')}}" width="100%" height="auto" style="min-height: 250px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/poster2.jpg')}}" width="100%" height="auto" style="min-height: 200px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -88,7 +88,7 @@
         <h2 class="container fst-italic fw-bold mt-3 text-center">Suport Clienții</h2>
         <p class="lead text-center">Ne puteți contacta pentru a primi informație și consultanța noastră de calitatea.</p>
         <div class="text-center">
-        <a href="feedback" class=" ml-auto mt-auto btn btn-primary w-50">Contactează cu noi</a></p>
+        <a href="feedback" class=" ml-auto mt-auto btn btn-primary w-50">Contactează</a></p>
         </div>
       </div><!-- /.col-lg-4 -->
 
@@ -103,7 +103,7 @@
     <br>
 
     <div class="row featurette ">
-      <div class="col-md-7 ">
+      <div class="col-md-7 h-50" >
         <h2 class="featurette-heading text-center">„Traveling Covid-19 Free”<span class="text-muted">cu AnaliticMed</span></h2>
         <p class="lead text-center p-3">Aplicația „Traveling Covid-19 Free” vă permite să găsiți laboratoare din apropiere pentru a vă testa testele pentru Covid-19 înainte de a călători între Federația Rusă, Republica Armenia, Republica Belarus, Republica Uzbekistan, Republica Kazahstan, Republica Kârgâzstan, Republica Tadjikistan și Republica Azerbaidjan.
 La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer autorizat care are dreptul să solicite rezultatele testului PCR în conformitate cu reglementările naționale.</p> <br> <br>
@@ -152,7 +152,7 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
 <br>
    <div class="container mt-5">
   
-   <h2 class="display-5 fst-italic fw-bold text-center">Unde noi ne aflam?<h2>
+   <h2 class="display-5 fst-italic fw-bold text-center">Unde noi ne aflăm?<h2>
   </div>
        <br>
 
@@ -172,7 +172,7 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
           </div>
           <div class="card-body" >
             <h5 class="text-center">Telefon:</h5>
-            <p class="lead text-muted">+373 22 856990 / +373 231 70471</p>
+            <p class="lead text-muted">+373 231 70471</p>
           <br>
             
           </div>
@@ -202,7 +202,7 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
           </div>
           <div class="card-body">
             <h5 class="text-center">E-Mail:</h5>
-            <p class="lead text-muted">analiticmeda@gmail.com</p>
+            <p class="lead text-muted">analiticmed@mail.ru</p>
             <br>
           </div>
         </div>

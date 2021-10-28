@@ -4,12 +4,34 @@
 
 @section('main_content')
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning" role="alert" style="min-width: 375px;">
 <h1 class=" text-center">Atenție!</h1>
 <p class="lead text-center">Dragi pacienți,
 înainte de a alege un analiz, asigurați-vă că revedeți <a class="lead text-center alert-link" href="#bottom">cerințele de colectare a analizelor.</a></p>
 </div>
 
+<div class="container">
+<div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-bold text-center">Analize de COVID-19</h4>
+          </div>
+          <div class="card-body">
+            
+            <ul class="list-unstyled mt-3 mb-4 text-center">
+              <li>1. Determinarea anticorpilor anti-SARS-CoV-2 IgM (Elisa)</li>
+              <li>2. Determinarea anticorpilor anti-SARS-CoV-2 IgG (Elisa)</li>
+              <li>3. Determinarea calitativă a ARN virusului SARS-CoV-2 prin metoda PCR (Real Time)</li>
+            </ul>
+            <br>
+          <p class="text-center text-muted">După informație mai detalizată va adresați in laborator.</p>
+          <div class="text-center">
+          <p class="lead"><a href="feedback" class="btn btn-primary text-center shadow-sm">Contactează</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 
 <div class="container mt-5">
     <h2>Investigații bacteriologice</h2>
@@ -256,9 +278,35 @@
 </div>
 <br>
 
+<div class="container">
+<div class="container alert alert-primary mt-5 shadow-sm">
+  <h3 class="text-center" >Instrucţiuni privind COVID-19:
+</h3>
+<a name="bottom"></a>
+<p class="lead text-center" >
+Pregătirea  pacientului:</p>
+<p>Pentru efectuarea testului sunt recoltate probe din regiunea nazofaringiană (prelevarea din nas și din faringe)</p>
+<p>Cu 3 ore înainte de prelevarea materialului biologic se recomandă:</p>
+<ul class="lead">
+  <li>să nu mâncați</li>
+  <li>să nu consumați lichide</li>
+  <li>să nu vă spălați dinții</li>
+  <li>să nu clătiți gura-gâtul</li>
+  <li>să nu mestecați guma</li>
+  <li>să nu fumați</li>
+</ul>
+<h4 >Atenţie: </h4> <p class="lead">Pentru efectuarea testului, este nevoie să aveți cu dumneavoastră buletinul de identitate. 
+  De asemenea, vă recomandăm să purtați mănuși de unică folosință și mască de protecție.</p>
+<p class="lead">În cazul rezultatelor pozitive, se recomandă contactarea medicului de familie, care vă va oferi suport și consultații
+   cu privire la acțiunile pe care urmează să le întreprindeți ulterior.</p>
+<h5>Eliberarea rezultatelor are loc în aceeaşi zi!</h5>
 
-<div class="container ">
-<div class="container alert alert-primary mt-5">
+</div>
+
+
+
+
+<div class="container alert alert-primary mt-5 shadow-sm">
   <h3 class="text-center">Cerinţe de recoltare 
 ale raclajului tractului urogenital (canalului cervical, vaginului, uretrei):
 </h3>
@@ -276,10 +324,10 @@ Pregătirea pacientei pentru colectarea investigaţiilor ADN cu 48 ore înainte 
 <h4 >Atenţie: </h4> <p class="lead">Probele nu se recoltează în perioada menstruală.</p>
 </div>
 
-<div class="container alert alert-primary mt-5">
+<div class="container alert alert-primary mt-5 shadow-sm">
   <h3 class="text-center" >Instrucţiuni privind recoltarea la barbaţi:
 </h3>
-<a name="bottom"></a>
+
 <p class="lead text-center" >
 Pregătirea  pacientului:
 </p>

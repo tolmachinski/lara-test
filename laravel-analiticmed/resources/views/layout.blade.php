@@ -50,6 +50,10 @@
   .rounded-lg-3 { border-radius: .3rem; }
 }
 
+@media (min-width: 375px) {
+  .container {min-width: 375px;}
+}
+
       
 
     /*google map */
@@ -98,8 +102,8 @@ position:absolute;
         <li class="nav-item"><a href="/" class="nav-link text-dark text-decoration-none lead" aria-current="page">Principală</a></li>
         <li class="nav-item"><a href="servicii" class="nav-link text-dark text-decoration-none lead">Servicii</a></li>
         
-        <li class="nav-item"><a href="#" class="nav-link text-dark text-decoration-none lead"></a></li>
-        <p class="lead"><a href="feedback" class="btn btn-primary">Contactează cu noi</a></p>
+        
+        <p class="lead"><a href="feedback" class="btn btn-primary shadow-sm">Contactează</a></p>
       </ul>
     </header>
   </div>
@@ -119,11 +123,13 @@ position:absolute;
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Principală</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
+      <li class="nav-item"><a href="#" class="btn btn-secondary shadow-sm">Sus <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+  <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+</svg></a></li>
+      
     </ul>
   </footer>
 </div>
