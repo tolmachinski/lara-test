@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title') Analitic-Med @endsection
+@section('title') AnaliticMed @endsection
 
 
 @section('main_content')
@@ -87,6 +87,7 @@
 
         <h2 class="container fst-italic fw-bold mt-3 text-center">Suport Clienții</h2>
         <p class="lead text-center">Ne puteți contacta pentru a primi informație și consultanța noastră de calitatea.</p>
+        <br>
         <div class="text-center">
         <a href="feedback" class=" ml-auto mt-auto btn btn-primary w-50">Contactează</a></p>
         </div>
@@ -103,8 +104,8 @@
     <br>
 
     <div class="row featurette ">
-      <div class="col-md-7 h-50" >
-        <h2 class="featurette-heading text-center">„Traveling Covid-19 Free”<span class="text-muted">cu AnaliticMed</span></h2>
+      <div class="col-md-7 " >
+        <h2 class="featurette-heading text-center">„Traveling Covid-19 Free”<span class="text-muted">cu "AnaliticMed"</span></h2>
         <p class="lead text-center p-3">Aplicația „Traveling Covid-19 Free” vă permite să găsiți laboratoare din apropiere pentru a vă testa testele pentru Covid-19 înainte de a călători între Federația Rusă, Republica Armenia, Republica Belarus, Republica Uzbekistan, Republica Kazahstan, Republica Kârgâzstan, Republica Tadjikistan și Republica Azerbaidjan.
 La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer autorizat care are dreptul să solicite rezultatele testului PCR în conformitate cu reglementările naționale.</p> <br> <br>
         <p class="lead text-center">Descărcați aplicația oficială de pe <b>Play Market :</b></p>
@@ -119,12 +120,14 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading text-center">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead text-center p-3">Another featurette? Of course. More placeholder Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque iste recusandae minima ab quia esse impedit totam ullam sint, nesciunt voluptatibus quo ipsum magnam autem quam culpa suscipit! Iure, distinctio. ntent here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      <div class="col-md-7 order-md-2 ">
+        <h2 class="featurette-heading text-center">COVID-19 <span class="text-muted">De ce în "AnaliticMed"?</span></h2>
+        <p class="lead text-center p-3">În laboratorul nostru, puteți face orice test COVID-19 de care aveți nevoie și obțineți rezultatul cu un certificat<b class="fw-bold"> în aceeași zi.</b> Suntem singurul laborator care poate face asta.
+           Pentru a face acest lucru, trebuie doar să treceți analiza de la 8:00 pâna la 14:00 și deja după prânz, în aceeași zi, dumneavoastra vei primi certificatul.
+        <p class="lead text-center p-3">Pentru a afla regulile de efectuare a analizelor și alte detalii, intră aici sau <a href="feedback" class="fw-bold">contactează-ne.</a></p></p></p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded p-2" src="{{asset('images/covid2.jpg')}}" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>

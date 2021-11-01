@@ -95,7 +95,7 @@ position:absolute;
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img class="bi me-2" src="{{asset('images/logo.png')}}" width="64" height="64"><use xlink:href="#bootstrap"></use></img>
-        <span class="fs-4 lead">Analitic-Med</span>
+        <span class="fs-4 lead">AnaliticMed</span>
       </a>
 
       <ul class="nav nav-pills ">
@@ -116,7 +116,7 @@ position:absolute;
 <div class="shadow-bottom mt-4">
 <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-    <p class="col-md-4 mb-0 text-muted">© 2021 "Analitic-Med"</p>
+    <p class="col-md-4 mb-0 text-muted">© 2021 "AnaliticMed"</p>
 
     <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>

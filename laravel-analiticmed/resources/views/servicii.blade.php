@@ -22,6 +22,7 @@
               <li>1. Determinarea anticorpilor anti-SARS-CoV-2 IgM (Elisa)</li>
               <li>2. Determinarea anticorpilor anti-SARS-CoV-2 IgG (Elisa)</li>
               <li>3. Determinarea calitativă a ARN virusului SARS-CoV-2 prin metoda PCR (Real Time)</li>
+              <li>4. SARS-CoV-2 IgG QuantiSpike</li>
             </ul>
             <br>
           <p class="text-center text-muted">După informație mai detalizată va adresați in laborator.</p>
