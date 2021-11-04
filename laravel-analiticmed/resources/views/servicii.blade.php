@@ -34,8 +34,56 @@
       </div>
 </div>
 
+
+
 <div class="container mt-5">
-    <h2>Investigații bacteriologice</h2>
+    <h2>Investigații Alergice</h2>
+    <p class="lead"> Fiecare bloc conține alergeni diferiți. După informație mai detalizată va adresați in laborator.</p>
+    
+
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Denumirea</th>
+      <th scope="col">Costul</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <th>1</th>
+      <td>Pediatric</td>
+      <td>865</td> 
+    </tr> 
+
+    <tr>
+      <th>2</th>
+      <td>Alimentar</td>
+      <td>865</td> 
+    </tr>
+
+    <tr>
+      <th>3</th>
+      <td>Respirator</td>
+      <td>865</td> 
+    </tr>
+
+    <tr>
+      <th>4</th>
+      <td>Mixt</td>
+      <td>865</td> 
+    </tr>
+  
+  </table>
+
+</div>
+<br>
+
+
+<div class="container mt-5">
+    <h2>Investigații Bacteriologice</h2>
     <p class="lead"> Investigarea bacteriologică a infectiilor urogenitale</p>
 
     <table class="table">

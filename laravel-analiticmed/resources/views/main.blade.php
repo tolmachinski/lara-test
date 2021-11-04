@@ -15,7 +15,7 @@
     </div>
     <div class="carousel-inner" >
       <div class="carousel-item" >
-      <img class="bd-placeholder-img" src="{{asset('images/head_banner.jpg')}}" width="100%" height="auto" style="min-height: 200px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/poster3.jpg')}}" width="100%" height="auto" style="min-height: 150px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container" >
             
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="carousel-item active">
-      <img class="bd-placeholder-img" src="{{asset('images/poster1.jpg')}}" width="100%" height="auto" style="min-height: 200px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/poster1.jpg')}}" width="100%" height="auto" style="min-height: 150px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="carousel-item">
-      <img class="bd-placeholder-img" src="{{asset('images/poster2.jpg')}}" width="100%" height="auto" style="min-height: 200px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
+      <img class="bd-placeholder-img" src="{{asset('images/poster2.jpg')}}" width="100%" height="auto" style="min-height: 150px; max-height: 600px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" ><rect  width="100%" height="100%" ></rect></img>
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -123,8 +123,9 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
       <div class="col-md-7 order-md-2 ">
         <h2 class="featurette-heading text-center">COVID-19 <span class="text-muted">De ce în "AnaliticMed"?</span></h2>
         <p class="lead text-center p-3">În laboratorul nostru, puteți face orice test COVID-19 de care aveți nevoie și obțineți rezultatul cu un certificat<b class="fw-bold"> în aceeași zi.</b> Suntem singurul laborator care poate face asta.
-           Pentru a face acest lucru, trebuie doar să treceți analiza de la 8:00 pâna la 14:00 și deja după prânz, în aceeași zi, dumneavoastra vei primi certificatul.
-        <p class="lead text-center p-3">Pentru a afla regulile de efectuare a analizelor și alte detalii, intră aici sau <a href="feedback" class="fw-bold">contactează-ne.</a></p></p></p>
+           Pentru a face acest lucru, trebuie doar să treceți analiza de la 8:00 pâna la 14:00 și deja după prânz, în aceeași zi, dumneavoastra vei primi certificatul.</p>
+        <p class="lead text-center p-3">Pentru a afla regulile de efectuare a analizelor și alte detalii, intră aici sau contactează-ne.</p>
+        <a href="feedback" class="btn btn-primary w-50" style="display: block; margin-right: auto; margin-left: auto; max-width: 200;">Contactează</a>
       </div>
       <div class="col-md-5 order-md-1">
       <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded p-2" src="{{asset('images/covid2.jpg')}}" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
