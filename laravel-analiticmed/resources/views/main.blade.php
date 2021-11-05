@@ -137,11 +137,15 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading text-center">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead text-center p-3">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading text-center">Orice analiză <span class="text-muted">pentru controlul masei.</span></h2>
+        <p class="lead text-center p-3">În laboratorul nostru, puteți face toate testele necesare pentru a vă monitoriza pierderea în masa. Aceste analize includ atât teste hormonale (de exemplu: TSH, Estradiol),
+           cât și biohimice (Creatinină, Glucoza etc.), precum și multe alte teste, urmărire căruia te vor ajuta să te menții în formă și să obții rezultatul dorit. Pentru alegerea corectă a testelor, vă recomandăm
+            o consultație individuală cu un medic dietetician.</p>
+        <p class="lead text-center p-3">Dar pentru informații mai detaliate, ne puteți contactați cu noi.</p>
+        <a href="feedback" class="btn btn-primary w-50" style="display: block; margin-right: auto; margin-left: auto; max-width: 200;">Contactează</a>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="{{asset('images/diet1.jpg')}}" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 
       </div>
     </div>
@@ -192,7 +196,7 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
           </div>
           <div class="card-body">
             <h5 class="text-center">Adresa:</h5>
-            <p class="lead text-muted">Str. Decebal 101, Bălți, Republica Moldova, 3101</p>
+            <p class="lead text-muted">Str. Decebal 101/A, Bălți, Republica Moldova, 3101</p>
             
           </div>
         </div>
@@ -221,32 +225,40 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
 
 
 
-      <!--Card content-->
-      <div class="container mt-3">
-
-        <!--Google map-->
-        
-        <div id="map-container-google-9" class="z-depth-1-half map-container-5 " style="height: 300px">
-          <iframe src="https://maps.google.com/maps?q=Madryt&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-            style="border:0;" allowfullscreen></iframe>
-        </div>
-                
-
-            
-
-      </div>
-      <!--/.Card content-->
-
-    
     
 
 </div>
 
 </div>
+<!--Google map-->
 
 
+<div class="container mt-3">
+<div id="map" class="z-depth-1-half map-container-5 "></div>
+</div>
+<script>
+    function initMap() {
+      var pos ={lat: 47.77226755313283, lng: 27.896765321204423}
+      var opt = {
+        center: pos,
+        zoom: 17
+      }
+      var map = new google.maps.Map(document.getElementById("map"), opt);
+    
+    var marker = new google.maps.Marker({
+      position: pos,
+      map: map,
+      title: "AnaliticMed",
+    })
+
+    
+    }
+  </script>
 
 
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi5M4RaElHOo21O27XWIY4DTBWfLy0LL4&callback=initMap">
+ </script>
          
 @endsection
 
