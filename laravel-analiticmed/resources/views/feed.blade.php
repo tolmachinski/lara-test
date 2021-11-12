@@ -22,15 +22,15 @@
 <form method="post" action="feedback/check">
   @csrf
 
-  <label for="exampleFormControlInput1" class="form-label mt-3">E-mail adresa</label>
+  <label for="exampleFormControlInput1" class="form-label mt-3">E-mail adresa:</label>
   <input name="email" type="email" class="form-control " id="exampleFormControlInput1" placeholder="name@example.com">
 
 
-  <label for="exampleFormControlInput1" class="form-label mt-3">Nume,Prenume</label>
+  <label for="exampleFormControlInput1" class="form-label mt-3">Nume,Prenume:</label>
   <input name="user" type="name" class="form-control " id="exampleFormControlInput1" placeholder="Nume">
 
 
-  <label for="exampleFormControlTextarea1" class="form-label mt-3">Mesajul</label>
+  <label for="exampleFormControlTextarea1" class="form-label mt-3">Mesajul:</label>
   <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mesajul..."></textarea>
   
  
@@ -42,7 +42,7 @@
 
 <div class="container mt-5">
   
-   <h4 class="display-5 fst-italic fw-bold text-center">Contacte:<h4>
+   <h4 class="display-6 fst-italic fw-bold text-center">Contacte:<h4>
   </div>
 
 

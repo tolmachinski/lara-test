@@ -7,22 +7,22 @@
 <div class="alert alert-warning" role="alert" style="min-width: 375px;">
 <h1 class=" text-center">Atenție!</h1>
 <p class="lead text-center">Dragi pacienți,
-înainte de a alege un analiz, asigurați-vă că revedeți <a class="lead text-center alert-link" href="#bottom">cerințele de colectare a analizelor.</a></p>
+înainte de a alege o investigație, studiați <a class="lead text-center alert-link" href="#bottom">cerințele de colectare a analizelor.</a></p>
 </div>
 
 <div class="container">
 <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-bold text-center">Analize de COVID-19</h4>
+            <h4 class="my-0 fw-bold text-center">Investigațiile la SARS-CoV-2</h4>
           </div>
           <div class="card-body">
             
             <ul class="list-unstyled mt-3 mb-4 text-center">
-              <li>1. Determinarea anticorpilor anti-SARS-CoV-2 IgM (Elisa)</li>
-              <li>2. Determinarea anticorpilor anti-SARS-CoV-2 IgG (Elisa)</li>
+              <li>1. Determinarea anticorpilor anti-SARS-CoV-2 IgM (Vidas)</li>
+              <li>2. Determinarea anticorpilor anti-SARS-CoV-2 IgG (Vidas)</li>
               <li>3. Determinarea calitativă a ARN virusului SARS-CoV-2 prin metoda PCR (Real Time)</li>
-              <li>4. SARS-CoV-2 IgG QuantiSpike</li>
+              <li>4. SARS-CoV-2 IgG QuantiSpike (postvaccinare)</li>
             </ul>
             <br>
           <p class="text-center text-muted">După informație mai detalizată va adresați in laborator.</p>
@@ -84,7 +84,7 @@
 
 <div class="container mt-5">
     <h2>Investigații Bacteriologice</h2>
-    <p class="lead"> Investigarea bacteriologică a infectiilor urogenitale</p>
+    <p class="lead"></p>
 
     <table class="table">
   <thead class="thead-dark">
@@ -118,7 +118,7 @@
 <br>
 <div class="container">
     <h2>Investigații  Imunologice</h2>
-    <p class="lead"> PCR  Real-Time </p>
+    <p class="lead"></p>
     
     <table class="table">
   <thead class="thead-dark">
@@ -140,18 +140,6 @@
       <td>{{ $el->cost }}</td>
     </tr>
 
-    @if($index == 8)
-   
-      
-      <td colspan=4 class="mt-2"><h4 class="text-center">Diagnosticul  hepatitelor</h4></td>
-    
-      <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">Determinarea calitativă a virusurilor hepatice </p></td>
-      </tr>
-    
-    
-    @endif
-    
     @endforeach
     </tbody>
   </table>
@@ -161,8 +149,8 @@
 <br>
 
 <div class="container">
-    <h2>Diagnosticul  infecţiilor  genitale  </h2>
-    <p class="lead"> PCR  Real-Time </p>
+    <h2> PCR  Real-Time </h2>
+    <p class="lead"> Diagnosticul  infecţiilor  genitale </p>
     
     <table class="table">
   <thead class="thead-dark">
@@ -187,15 +175,39 @@
     @if($index == 10)
    
       
-      <td colspan=4 class="mt-2"><h4 class="text-center">Infecţii  bacteriene,Infecţii  virale </h4></td>
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Infecţii  bacteriene,Infecţii  virale </h4><br></td>
     
       <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">PCR  Real-Time  </p></td>
+      
       </tr>
     
     
     @endif
+
+    @if($index == 18)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Virusul papilomei uman</h4><br></td>
     
+      <tr>
+      
+      </tr>
+    
+    
+    @endif
+
+    @if($index == 22)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Diagnosticul Hepatitelor</h4>
+    <br> <p class="lead text-center"> Determinarea calitativă a virusurilor hepatice</p></td>
+      
+      <tr>
+      
+      </tr>
+    
+    
+    @endif
     @endforeach
     </tbody>
   </table>
@@ -205,7 +217,7 @@
 <br>
 
 <div class="container">
-    <h2>Investigații sînge </h2>
+    <h2>Hormoni şi Autoanticorpi</h2>
     <p class="lead">  </p>
     
     <table class="table">
@@ -228,14 +240,24 @@
       <td>{{ $el->cost }}</td>
     </tr>
 
-    @if($index == 13)
+   
+
+    @if($index == 28)
    
       
-      <td colspan=4 class="mt-2"><h4 class="text-center">Hormoni  şi  Autoanticorpi </h4></td>
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Investigații Parazitologice (ELISA)</h4><br></td>
     
-      <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
-      </tr>
+      
+    
+    
+    @endif
+
+    @if($index == 35)
+   
+      
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Markerii Oncologici</h4><br></td>
+    
+      
     
     
     @endif
@@ -243,35 +265,8 @@
     @if($index == 42)
    
       
-      <td colspan=4 class="mt-2"><h4 class="text-center">Investigații Parazitologice (ELISA)</h4></td>
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Determinarea Grupei Sangvine şi Rezus Factor</h4><br></td>
     
-      <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
-      </tr>
-    
-    
-    @endif
-
-    @if($index == 49)
-   
-      
-      <td colspan=4 class="mt-2"><h4 class="text-center">Markerii Oncologici</h4></td>
-    
-      <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
-      </tr>
-    
-    
-    @endif
-
-    @if($index == 56)
-   
-      
-      <td colspan=4 class="mt-2"><h4 class="text-center">Determinarea Grupei Sangvine şi Rezus Factor</h4></td>
-    
-      <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
-      </tr>
     
     
     @endif
@@ -308,14 +303,12 @@
       <td>{{ $el->cost }}</td>
     </tr>
 
-    @if($index == 30)
+    @if($index == 31)
    
       
-      <td colspan=4 class="mt-2"><h4 class="text-center">Statutul Imun </h4></td>
+      <td colspan=4 class="mt-2"><h4 class="text-center"><br>Statutul Imun </h4><br></td>
     
-      <tr>
-      <td colspan=4 class="mt-2"><p class="lead text-center">  </p></td>
-      </tr>
+      
     
     
     @endif

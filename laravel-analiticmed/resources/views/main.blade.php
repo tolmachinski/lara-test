@@ -106,8 +106,8 @@
     <div class="row featurette ">
       <div class="col-md-7 " >
         <h2 class="featurette-heading text-center">„Traveling Covid-19 Free”<span class="text-muted">cu "AnaliticMed"</span></h2>
-        <p class="lead text-center p-3">Aplicația „Traveling Covid-19 Free” vă permite să găsiți laboratoare din apropiere pentru a vă testa testele pentru Covid-19 înainte de a călători între Federația Rusă, Republica Armenia, Republica Belarus, Republica Uzbekistan, Republica Kazahstan, Republica Kârgâzstan, Republica Tadjikistan și Republica Azerbaidjan.
-La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer autorizat care are dreptul să solicite rezultatele testului PCR în conformitate cu reglementările naționale.</p> <br> <br>
+        <p class="lead text-center p-3">Aplicația „Traveling Covid-19 Free” vă permite să găsiți laboratoare din apropiere pentru a vă testa pentru Covid-19 înainte de a călători în Federația Rusă, Republica Armenia, Republica Belarus, Republica Uzbekistan, Republica Kazahstan, Republica Kârgâzstan, Republica Tadjikistan și Republica Azerbaidjan.
+La trecerea frontierei, arătați codul QR cu rezultatul testului unui ofițer autorizat care are dreptul să solicite rezultatul testului PCR în conformitate cu reglementările naționale.</p> <br> <br>
         <p class="lead text-center">Descărcați aplicația oficială de pe <b>Play Market :</b></p>
         <p><a class="btn btn-lg btn-primary " style="display: block; margin-right: auto; margin-left: auto; max-width: 200;" href="https://play.google.com/store/apps/details?id=com.nocovid19.su&hl=ro&gl=US" target="_blank">Descarcă</a></p>
       </div>
@@ -137,10 +137,10 @@ La trecerea frontierei, arătați codul QR cu rezultatele testelor unui ofițer 
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading text-center">Orice analiză <span class="text-muted">pentru controlul masei.</span></h2>
+        <h2 class="featurette-heading text-center">Analize medicale <span class="text-muted">pentru controlul masei corporale.</span></h2>
         <p class="lead text-center p-3">În laboratorul nostru, puteți face toate testele necesare pentru a vă monitoriza pierderea în masa. Aceste analize includ atât teste hormonale (de exemplu: TSH, Estradiol),
-           cât și biohimice (Creatinină, Glucoza etc.), precum și multe alte teste, urmărire căruia te vor ajuta să te menții în formă și să obții rezultatul dorit. Pentru alegerea corectă a testelor, vă recomandăm
-            o consultație individuală cu un medic dietetician.</p>
+           cât și biohimice (Creatinină, Glucoza etc.), precum și multe alte teste, urmărirea cărora te vor ajuta să te menții în formă și să obții rezultatul dorit. Pentru alegerea corectă a testelor, vă recomandăm
+            o consultație individuală cu un medic specialist.</p>
         <p class="lead text-center p-3">Dar pentru informații mai detaliate, ne puteți contactați cu noi.</p>
         <a href="feedback" class="btn btn-primary w-50" style="display: block; margin-right: auto; margin-left: auto; max-width: 200;">Contactează</a>
       </div>
